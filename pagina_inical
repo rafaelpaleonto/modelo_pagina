@@ -1,0 +1,66 @@
+import streamlit as st # type: ignore
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+st.set_page_config( 
+    page_title="Faculdade de Geociência - UFMT",
+    page_icon=":mortar_board:",
+    layout="wide",
+    
+)
+
+st.markdown("""
+    <style>
+    body{
+        background-color:#FDFBF9FF;
+    }
+    h1{
+        text-align: center;
+        
+    }
+    </style>
+""",unsafe_allow_html=True)
+st.markdown("""
+    <h1 style='text-align: center;'>
+    Laboratório Multiusuários de Técnicas Analíticas - LAMUTA
+    </h1>
+ """,unsafe_allow_html=True)
+
+st.markdown("""
+    <style>
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #2715EBCD;
+        padding: 10px;
+    }
+    .navbar a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #FFFFFFFF;
+        font-weight: bold;
+    }
+    .navbar a:hover {
+        color: #BD1C07F8;
+    }
+    </style>
+    <div class="navbar">
+        <a href="#home">Página Inicial</a>
+        <a href="#projects">Projetos</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato e Solicitação</a>
+        <a href="#team">Equipe</a>
+    </div>
+""", unsafe_allow_html=True)
+
+st.write('Laboratório de Multianalises')
+
+
+st.markdown(
+    """
+    Divulgação do projeto FAPEMAT
+    """
+)
